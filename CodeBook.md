@@ -1,12 +1,12 @@
-#Code Book that describes the variables and the data performed to clean up the raw data.
+# Code Book that describes the variables and the data performed to clean up the raw data.
  
-##Factor w/ 30 levels: numbers 1 to 30. Used to identify a group of 30 volunteers.
+## Factor w/ 30 levels: numbers 1 to 30. Used to identify a group of 30 volunteers.
 1                      subject
 
-##Factor w/ 6 levels. "WALKING" "WALKING_UPSTAIRS" "WALKING_DOWNSTAIRS" "SITTING" "STANDING" "LAYING". Used to identify the activity that the subject performed.
+## Factor w/ 6 levels. "WALKING" "WALKING_UPSTAIRS" "WALKING_DOWNSTAIRS" "SITTING" "STANDING" "LAYING". Used to identify the activity that the subject performed.
 2                     activity
 
-##3 to 68: Numeric variables [1:180] that represents the average of each measurement of the mean and standard deviation for each activity and each subject (for more info see features_info.txt).
+## 3 to 68: Numeric variables [1:180] that represents the average of each measurement of the mean and standard deviation for each activity and each subject (for more info see features_info.txt).
 
 3            tBodyAcc.mean...X
 4            tBodyAcc.mean...Y
